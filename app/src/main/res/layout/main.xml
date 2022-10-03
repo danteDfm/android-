@@ -7,11 +7,15 @@
 
 
     <LinearLayout
+        android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_marginTop="24dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="47dp">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <Button
@@ -27,66 +31,83 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/cardview_dark_background"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
             android:text="detalles" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/cardview_dark_background"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
             android:text="contactos" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="CALCV"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="304dp" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img1" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bt1"
         android:layout_width="89dp"
         android:layout_height="37dp"
-        android:text="detail"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="337dp" />
+        android:layout_marginTop="16dp"
+        android:text="details"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="CASILLERO"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img2" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="89dp"
         android:layout_height="37dp"
-        android:text="detail"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="575dp" />
+        android:text="details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintVertical_bias="0.207" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img1"
         android:layout_width="147dp"
         android:layout_height="124dp"
-        app:srcCompat="@drawable/vin1"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="159dp" />
+        android:layout_marginTop="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l1"
+
+        app:srcCompat="@drawable/vin1" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/img2"
         android:layout_width="146dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/vin3"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="399dp" />
+        android:layout_marginTop="20dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt1"
+        app:srcCompat="@drawable/vin3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
