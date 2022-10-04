@@ -21,7 +21,20 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".main"></activity>
+        <activity android:name=".main2"></activity>
+        <activity android:name=".main3"></activity>
+        <activity android:name=".calcv"></activity>
+        <activity android:name=".diablo"></activity>
+        <activity android:name=".daniel"></activity>
+        <activity android:name=".bean"></activity>
+        <activity android:name=".bacardy"></activity>
+        <activity android:name=".sierra"></activity>
+
+
     </application>
 
 </manifest>

@@ -11,44 +11,56 @@
         android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/cardview_dark_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="nick"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="0dp"
-        android:background="@color/cardview_dark_background"
-        tools:layout_editor_absoluteY="369dp" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
 
     <EditText
         android:id="@+id/edit2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_dark_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="password"
         android:textColor="@color/white"
-        android:background="@color/cardview_dark_background"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="449dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit1" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="103dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="76dp"
         android:backgroundTint="@color/cardview_dark_background"
-        tools:layout_editor_absoluteY="569dp" />
+        android:text="ENTER"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit2" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:backgroundTint="@color/cardview_dark_background"
-        tools:layout_editor_absoluteX="219dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="80dp"
         android:layout_weight="1"
-        tools:layout_editor_absoluteY="569dp" />
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="CLEAN"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintLeft_toRightOf="@id/button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit2" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -61,5 +73,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icono1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintVertical_bias="0.768" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
