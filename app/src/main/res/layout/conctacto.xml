@@ -61,77 +61,95 @@
         android:id="@+id/imageView16"
         android:layout_width="86dp"
         android:layout_height="82dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView18"
         app:srcCompat="@drawable/mapa"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="414dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="83dp"
         android:layout_height="94dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l1"
+
         app:srcCompat="@drawable/telefono"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="200dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="121dp"
         android:layout_height="84dp"
+        android:layout_marginLeft="16dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
         app:srcCompat="@drawable/correo"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="314dp" />
+        tools:layout_editor_absoluteY="361dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="108dp"
         android:layout_height="22dp"
+        android:layout_marginLeft="72dp"
         android:background="@color/white"
         android:text="+56964591680"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="218dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintLeft_toRightOf="@id/imageView17"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="219dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="108dp"
         android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="128dp"
         android:background="@color/white"
         android:text="+56977016807"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="253dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="173dp"
         android:layout_height="28dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="104dp"
         android:background="@color/white"
         android:text="Twentynarnjo@gmail.com"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="326dp"
+        app:layout_constraintLeft_toRightOf="@id/imageView18"
+        app:layout_constraintTop_toBottomOf="@id/textView5"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="173dp"
         android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="84dp"
         android:background="@color/white"
         android:text="Dante.kiki569@gmail.com"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="363dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="134dp"
         android:layout_height="62dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="140dp"
         android:background="@color/white"
         android:text="@string/av_villa_el_portal_licoreia_820_ovalle_de_chile"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="427dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toRightOf="@id/imageView16"
+        app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
 
 
