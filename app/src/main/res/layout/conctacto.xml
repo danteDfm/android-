@@ -80,9 +80,9 @@
         android:layout_width="121dp"
         android:layout_height="84dp"
         app:srcCompat="@drawable/correo"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="317dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="314dp" />
 
     <TextView
         android:id="@+id/textView3"

@@ -58,9 +58,9 @@
     <Button
         android:id="@+id/bt1"
         android:layout_width="89dp"
-        android:layout_height="37dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:text="details"
+        android:text="detail"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text1" />
@@ -131,7 +131,8 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:text="before" />
+            android:text="before"
+            tools:ignore="TouchTargetSizeCheck" />
 
 
     </LinearLayout>
