@@ -43,13 +43,13 @@
             android:backgroundTint="@color/cardview_dark_background"
             android:text="EXIT" />
     </LinearLayout>
-
+ bnnN,jhjyt ukt bi/l_nhluvb{56uu6ey  .h,g.gfn.jh+j-
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="CALCV"
+        android:text="@string/calcv"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="CASILLERO"
+        android:text="@string/casillero"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

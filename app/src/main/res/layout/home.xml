@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="411dp"
+        android:layout_height="346dp"
+        android:background="@color/black"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:text="PRODUCT"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="273dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:text="@string/whisky_pisco_ron_tequila_vodka_vino_cerveza_los_mejores_productos_en_un_solo_lugar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:text="EXIT"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="344dp"
+        android:layout_height="161dp"
+        app:srcCompat="@drawable/almacen"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="437dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

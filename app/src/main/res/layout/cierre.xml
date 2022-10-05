@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo">
+
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="65dp"
+            android:layout_height="71dp"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="318dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="356dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="36dp"
+            android:orientation="horizontal"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+
+                android:text="HOME" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="details" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="contacts" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="84dp"
+            android:layout_height="18dp"
+            android:text="[1]  2  3"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="opinion"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/calificación"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="414dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="356dp"
+            android:layout_height="141dp"
+            android:background="@color/white"
+            android:text=""
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="60dp"
+            android:layout_height="71dp"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="630dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="77dp"
+            android:layout_height="62dp"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="532dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="76dp"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="539dp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="70dp"
+            android:layout_height="62dp"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="546dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="356dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds">
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+
+            android:text="HOME" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="details" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="contacts" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="18dp"
+        android:text="[1]  2  3"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="opinion"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="356dp"
+        android:layout_height="141dp"
+        android:text=""
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="245dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

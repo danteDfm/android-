@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo">
+
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="359dp"
+        android:layout_height="21dp"
+        android:background="@color/white"
+        android:text="(sin filtro)"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="360dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:text="(sin filtro)"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="363dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:text="(sin filtro)"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="359dp"
+        android:layout_height="21dp"
+        android:background="@color/white"
+        android:text="(sin filtro)"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/white"
+        android:text="tags"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="359dp"
+        android:layout_height="24dp"
+        android:background="@color/white"
+        android:text="@string/cantidad_cc"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="360dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:text="@string/caracteristicas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="359dp"
+        android:layout_height="18dp"
+        android:background="@color/white"
+        android:text="@string/tipo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="357dp"
+        android:layout_height="18dp"
+        android:background="@color/white"
+        android:text="año"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="356dp"
+        android:layout_height="92dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+
+            android:text="HOME" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="details" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="contacts" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="18dp"
+        android:text="[1]  2  3"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="697dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="355dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:text="@string/marca"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="359dp"
+        android:layout_height="19dp"
+        android:background="@color/white"
+        android:text="@string/sabor"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="370dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:text="@string/sin_filtro"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:text="despacho"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:text="precio"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:text="delivery"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="354dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:text="(sin filtro)"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

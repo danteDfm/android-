@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="av_villa_el_portal_licoreia_820_ovalle_de_chile">AV Villa el portal , Licoreia 820 Ovalle de Chile</string>
+    <string name="marca">Marca</string>
+    <string name="tipo">tipo</string>
+    <string name="caracteristicas">caracteristicas</string>
+    <string name="cantidad_cc">cantidad cc</string>
+    <string name="grado_alcoholico">Grado Alcoholico</string>
+    <string name="sabor">Sabor</string>
+    <string name="sin_filtro">(sin filtro)</string>
+    <string name="casillero">CASILLERO</string>
+    <string name="calcv">CALCV</string>
+    <string name="opini_n">opinión</string>
+    <string name="calificación">calificacion:</string>
+    <string name="destileria">destileria</string>
+    <string name="whisky_pisco_ron_tequila_vodka_vino_cerveza_los_mejores_productos_en_un_solo_lugar">Whisky, Pisco, Ron, Tequila, Vodka, Vino, Cerveza, Los mejores productos en un solo lugar.</string>
 </resources>
