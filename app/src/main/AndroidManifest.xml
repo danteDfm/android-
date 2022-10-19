@@ -33,6 +33,7 @@
         <activity android:name=".bean"></activity>
         <activity android:name=".bacardy"></activity>
         <activity android:name=".sierra"></activity>
+        <activity android:name=".activityintentsdante"></activity>
 
 
     </application>
